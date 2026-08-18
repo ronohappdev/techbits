@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "sanity start",
     "build": "sanity build",
-    "deploy": "sanity deploy"
+    "deploy": "sanity deploy",
+    "seed": "node ./seed.js"
   },
   "dependencies": {
     "sanity": "^3.0.0"
